@@ -1,0 +1,16 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="securityGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <circle cx="24" cy="24" r="20" fill="url(#securityGradient)" opacity="0.1" stroke="url(#securityGradient)" stroke-width="2"/>
+  
+  <!-- Shield -->
+  <path d="M24 8L16 12V20C16 26 20 31 24 32C28 31 32 26 32 20V12L24 8Z" fill="none" stroke="url(#securityGradient)" stroke-width="2"/>
+  
+  <!-- Checkmark -->
+  <path d="M20 22L22 24L28 18" stroke="url(#securityGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

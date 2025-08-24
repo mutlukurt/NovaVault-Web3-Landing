@@ -1,0 +1,17 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aaveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B6509E"/>
+      <stop offset="100%" style="stop-color:#2EBAC6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Circle background -->
+  <circle cx="20" cy="20" r="20" fill="url(#aaveGradient)"/>
+  
+  <!-- Aave ghost -->
+  <path d="M20 8C25 8 28 11 28 16V26C28 28 26 30 24 30H16C14 30 12 28 12 26V16C12 11 15 8 20 8Z" fill="white"/>
+  <circle cx="17" cy="18" r="2" fill="#B6509E"/>
+  <circle cx="23" cy="18" r="2" fill="#B6509E"/>
+  <path d="M14 26L16 28L18 26L20 28L22 26L24 28L26 26" stroke="#B6509E" stroke-width="2" fill="none"/>
+</svg>

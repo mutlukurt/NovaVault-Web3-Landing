@@ -1,0 +1,25 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9945FF"/>
+      <stop offset="50%" style="stop-color:#22D3EE"/>
+      <stop offset="100%" style="stop-color:#14F195"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Vault symbol -->
+  <rect x="8" y="12" width="24" height="20" rx="4" stroke="url(#logoGradient)" stroke-width="2" fill="none"/>
+  <rect x="12" y="16" width="16" height="12" rx="2" fill="url(#logoGradient)" opacity="0.3"/>
+  
+  <!-- Lock -->
+  <path d="M16 12V8C16 5.79086 17.7909 4 20 4C22.2091 4 24 5.79086 24 8V12" stroke="url(#logoGradient)" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="20" cy="22" r="2" fill="white"/>
+  
+  <!-- Nova effect -->
+  <g opacity="0.8">
+    <path d="M20 2L21 6L20 10L19 6Z" fill="url(#logoGradient)"/>
+    <path d="M38 20L34 21L30 20L34 19Z" fill="url(#logoGradient)"/>
+    <path d="M20 38L19 34L20 30L21 34Z" fill="url(#logoGradient)"/>
+    <path d="M2 20L6 19L10 20L6 21Z" fill="url(#logoGradient)"/>
+  </g>
+</svg>

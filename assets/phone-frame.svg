@@ -1,0 +1,70 @@
+<svg width="320" height="640" viewBox="0 0 320 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1B23"/>
+      <stop offset="100%" style="stop-color:#2D1B69"/>
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone frame -->
+  <rect x="0" y="0" width="320" height="640" rx="32" fill="#1F2937" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  
+  <!-- Screen -->
+  <rect x="16" y="16" width="288" height="608" rx="24" fill="url(#phoneGradient)"/>
+  
+  <!-- Status bar -->
+  <rect x="32" y="32" width="256" height="24" fill="none"/>
+  <text x="40" y="48" font-family="Arial" font-size="12" fill="#9CA3AF">9:41</text>
+  <circle cx="272" cy="44" r="6" fill="#10B981"/>
+  <text x="284" y="48" font-family="Arial" font-size="12" fill="#9CA3AF">100%</text>
+  
+  <!-- App header -->
+  <text x="40" y="88" font-family="Arial" font-size="20" font-weight="bold" fill="white">NovaVault</text>
+  <text x="40" y="108" font-family="Arial" font-size="12" fill="#9CA3AF">Your Web3 Wallet</text>
+  
+  <!-- Balance card -->
+  <rect x="32" y="128" width="256" height="120" rx="16" fill="url(#screenGradient)" opacity="0.1" stroke="url(#screenGradient)" stroke-width="1"/>
+  <text x="48" y="152" font-family="Arial" font-size="12" fill="#9CA3AF">Total Balance</text>
+  <text x="48" y="184" font-family="Arial" font-size="28" font-weight="bold" fill="white">$12,847.92</text>
+  <text x="48" y="208" font-family="Arial" font-size="12" fill="#10B981">+2.34% (24h)</text>
+  
+  <!-- Quick actions -->
+  <text x="40" y="284" font-family="Arial" font-size="16" font-weight="bold" fill="white">Quick Actions</text>
+  
+  <rect x="40" y="304" width="64" height="64" rx="12" fill="url(#screenGradient)" opacity="0.2"/>
+  <text x="72" y="344" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Send</text>
+  
+  <rect x="112" y="304" width="64" height="64" rx="12" fill="url(#screenGradient)" opacity="0.2"/>
+  <text x="144" y="344" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Receive</text>
+  
+  <rect x="184" y="304" width="64" height="64" rx="12" fill="url(#screenGradient)" opacity="0.2"/>
+  <text x="216" y="344" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Swap</text>
+  
+  <!-- Assets list -->
+  <text x="40" y="404" font-family="Arial" font-size="16" font-weight="bold" fill="white">Assets</text>
+  
+  <g>
+    <circle cx="56" cy="432" r="16" fill="#627EEA"/>
+    <text x="80" y="436" font-family="Arial" font-size="14" fill="white">Ethereum</text>
+    <text x="80" y="448" font-family="Arial" font-size="10" fill="#9CA3AF">2.45 ETH</text>
+    <text x="240" y="440" font-family="Arial" font-size="14" fill="white">$4,890</text>
+  </g>
+  
+  <g>
+    <circle cx="56" cy="472" r="16" fill="#F3BA2F"/>
+    <text x="80" y="476" font-family="Arial" font-size="14" fill="white">BNB</text>
+    <text x="80" y="488" font-family="Arial" font-size="10" fill="#9CA3AF">8.32 BNB</text>
+    <text x="240" y="480" font-family="Arial" font-size="14" fill="white">$2,496</text>
+  </g>
+  
+  <g>
+    <circle cx="56" cy="512" r="16" fill="#2775CA"/>
+    <text x="80" y="516" font-family="Arial" font-size="14" fill="white">USDC</text>
+    <text x="80" y="528" font-family="Arial" font-size="10" fill="#9CA3AF">1,252 USDC</text>
+    <text x="240" y="520" font-family="Arial" font-size="14" fill="white">$1,252</text>
+  </g>
+</svg>

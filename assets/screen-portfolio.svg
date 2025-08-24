@@ -1,0 +1,49 @@
+<svg width="280" height="560" viewBox="0 0 280 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="portfolioScreenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1B23"/>
+      <stop offset="100%" style="stop-color:#2D1B69"/>
+    </linearGradient>
+    <linearGradient id="portfolioCardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone background -->
+  <rect x="0" y="0" width="280" height="560" rx="28" fill="url(#portfolioScreenGradient)"/>
+  
+  <!-- Header -->
+  <text x="24" y="60" font-family="Arial" font-size="20" font-weight="bold" fill="white">Portfolio</text>
+  
+  <!-- Total balance -->
+  <rect x="24" y="80" width="232" height="100" rx="12" fill="rgba(139, 92, 246, 0.1)" stroke="url(#portfolioCardGradient)" stroke-width="1"/>
+  <text x="36" y="105" font-family="Arial" font-size="12" fill="#9CA3AF">Total Balance</text>
+  <text x="36" y="135" font-family="Arial" font-size="28" font-weight="bold" fill="white">$18,742.50</text>
+  <text x="36" y="155" font-family="Arial" font-size="12" fill="#10B981">+8.24% (24h)</text>
+  
+  <!-- Chart placeholder -->
+  <rect x="24" y="200" width="232" height="120" rx="12" fill="rgba(6, 182, 212, 0.05)"/>
+  <path d="M40 280L80 260L120 240L160 220L200 200L240 180" stroke="url(#portfolioCardGradient)" stroke-width="2" fill="none"/>
+  
+  <!-- Asset breakdown -->
+  <text x="24" y="350" font-family="Arial" font-size="16" font-weight="bold" fill="white">Top Holdings</text>
+  
+  <!-- ETH -->
+  <circle cx="40" cy="380" r="12" fill="#627EEA"/>
+  <text x="64" y="378" font-family="Arial" font-size="14" fill="white">ETH</text>
+  <text x="64" y="392" font-family="Arial" font-size="10" fill="#9CA3AF">6.25 ETH</text>
+  <text x="220" y="385" font-family="Arial" font-size="14" fill="white">$14,250</text>
+  
+  <!-- BTC -->
+  <circle cx="40" cy="420" r="12" fill="#F7931A"/>
+  <text x="64" y="418" font-family="Arial" font-size="14" fill="white">BTC</text>
+  <text x="64" y="432" font-family="Arial" font-size="10" fill="#9CA3AF">0.08 BTC</text>
+  <text x="220" y="425" font-family="Arial" font-size="14" fill="white">$3,240</text>
+  
+  <!-- USDC -->
+  <circle cx="40" cy="460" r="12" fill="#2775CA"/>
+  <text x="64" y="458" font-family="Arial" font-size="14" fill="white">USDC</text>
+  <text x="64" y="472" font-family="Arial" font-size="10" fill="#9CA3AF">1,252.50 USDC</text>
+  <text x="220" y="465" font-family="Arial" font-size="14" fill="white">$1,252</text>
+</svg>

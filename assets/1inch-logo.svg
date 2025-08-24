@@ -1,0 +1,16 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oneinchGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F2937"/>
+      <stop offset="100%" style="stop-color:#1F2937"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Circle background -->
+  <circle cx="20" cy="20" r="20" fill="url(#oneinchGradient)"/>
+  
+  <!-- 1inch logo -->
+  <path d="M15 12H19V28H15V12Z" fill="white"/>
+  <path d="M12 12H16V16H12V12Z" fill="white"/>
+  <path d="M22 28C22 24 25 22 28 22V18C23 18 18 22 18 28H22Z" fill="white"/>
+</svg>

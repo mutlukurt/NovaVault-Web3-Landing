@@ -1,0 +1,61 @@
+<svg width="280" height="560" viewBox="0 0 280 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="settingsScreenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1B23"/>
+      <stop offset="100%" style="stop-color:#2D1B69"/>
+    </linearGradient>
+    <linearGradient id="settingsCardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone background -->
+  <rect x="0" y="0" width="280" height="560" rx="28" fill="url(#settingsScreenGradient)"/>
+  
+  <!-- Header -->
+  <text x="24" y="60" font-family="Arial" font-size="20" font-weight="bold" fill="white">Settings</text>
+  
+  <!-- Profile section -->
+  <rect x="24" y="80" width="232" height="80" rx="12" fill="rgba(139, 92, 246, 0.1)" stroke="url(#settingsCardGradient)" stroke-width="1"/>
+  <circle cx="60" cy="120" r="20" fill="url(#settingsCardGradient)"/>
+  <text x="100" y="115" font-family="Arial" font-size="14" font-weight="bold" fill="white">Alex Chen</text>
+  <text x="100" y="130" font-family="Arial" font-size="10" fill="#9CA3AF">0x7a2b...9f4c</text>
+  <text x="100" y="145" font-family="Arial" font-size="10" fill="#06B6D4">Verified</text>
+  
+  <!-- Security section -->
+  <text x="24" y="200" font-family="Arial" font-size="16" font-weight="bold" fill="white">Security</text>
+  
+  <!-- Biometric -->
+  <rect x="24" y="220" width="232" height="40" rx="8" fill="rgba(139, 92, 246, 0.05)"/>
+  <text x="36" y="240" font-family="Arial" font-size="12" fill="white">Biometric Unlock</text>
+  <circle cx="228" cy="240" r="8" fill="#10B981"/>
+  
+  <!-- 2FA -->
+  <rect x="24" y="270" width="232" height="40" rx="8" fill="rgba(139, 92, 246, 0.05)"/>
+  <text x="36" y="290" font-family="Arial" font-size="12" fill="white">Two-Factor Auth</text>
+  <circle cx="228" cy="290" r="8" fill="#10B981"/>
+  
+  <!-- Auto-lock -->
+  <rect x="24" y="320" width="232" height="40" rx="8" fill="rgba(139, 92, 246, 0.05)"/>
+  <text x="36" y="340" font-family="Arial" font-size="12" fill="white">Auto-Lock (5 min)</text>
+  <text x="228" y="344" font-family="Arial" font-size="12" fill="#9CA3AF">></text>
+  
+  <!-- Preferences -->
+  <text x="24" y="390" font-family="Arial" font-size="16" font-weight="bold" fill="white">Preferences</text>
+  
+  <!-- Theme -->
+  <rect x="24" y="410" width="232" height="40" rx="8" fill="rgba(139, 92, 246, 0.05)"/>
+  <text x="36" y="430" font-family="Arial" font-size="12" fill="white">Dark Mode</text>
+  <circle cx="228" cy="430" r="8" fill="#10B981"/>
+  
+  <!-- Currency -->
+  <rect x="24" y="460" width="232" height="40" rx="8" fill="rgba(139, 92, 246, 0.05)"/>
+  <text x="36" y="480" font-family="Arial" font-size="12" fill="white">Currency (USD)</text>
+  <text x="228" y="484" font-family="Arial" font-size="12" fill="#9CA3AF">></text>
+  
+  <!-- Notifications -->
+  <rect x="24" y="510" width="232" height="40" rx="8" fill="rgba(139, 92, 246, 0.05)"/>
+  <text x="36" y="530" font-family="Arial" font-size="12" fill="white">Notifications</text>
+  <circle cx="228" cy="530" r="8" fill="#6B7280"/>
+</svg>

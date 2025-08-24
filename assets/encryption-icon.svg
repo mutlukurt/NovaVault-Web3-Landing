@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="encryptionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Lock body -->
+  <rect x="8" y="14" width="16" height="12" rx="2" fill="none" stroke="url(#encryptionGradient)" stroke-width="2"/>
+  
+  <!-- Lock shackle -->
+  <path d="M12 14V10C12 7.79086 13.7909 6 16 6C18.2091 6 20 7.79086 20 10V14" stroke="url(#encryptionGradient)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Key hole -->
+  <circle cx="16" cy="20" r="2" fill="url(#encryptionGradient)"/>
+</svg>

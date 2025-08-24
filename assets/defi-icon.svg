@@ -1,0 +1,19 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="defiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <circle cx="24" cy="24" r="20" fill="url(#defiGradient)" opacity="0.1" stroke="url(#defiGradient)" stroke-width="2"/>
+  
+  <!-- DeFi trading chart -->
+  <path d="M12 30L18 24L24 28L30 20L36 16" stroke="url(#defiGradient)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="18" cy="24" r="2" fill="url(#defiGradient)"/>
+  <circle cx="24" cy="28" r="2" fill="url(#defiGradient)"/>
+  <circle cx="30" cy="20" r="2" fill="url(#defiGradient)"/>
+  
+  <!-- Yield farming icon -->
+  <rect x="14" y="32" width="20" height="4" rx="2" fill="url(#defiGradient)" opacity="0.6"/>
+</svg>

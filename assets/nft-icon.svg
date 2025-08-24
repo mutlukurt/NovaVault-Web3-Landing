@@ -1,0 +1,18 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nftGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+  </defs>
+  
+  <circle cx="24" cy="24" r="20" fill="url(#nftGradient)" opacity="0.1" stroke="url(#nftGradient)" stroke-width="2"/>
+  
+  <!-- NFT frame -->
+  <rect x="14" y="14" width="20" height="20" rx="2" fill="none" stroke="url(#nftGradient)" stroke-width="2"/>
+  
+  <!-- NFT art representation -->
+  <circle cx="20" cy="20" r="3" fill="url(#nftGradient)" opacity="0.6"/>
+  <rect x="26" y="18" width="6" height="4" rx="1" fill="url(#nftGradient)" opacity="0.6"/>
+  <path d="M16 28L20 24L24 26L28 22L32 24" stroke="url(#nftGradient)" stroke-width="1.5" fill="none"/>
+</svg>

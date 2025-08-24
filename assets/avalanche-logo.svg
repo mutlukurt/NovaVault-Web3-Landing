@@ -1,0 +1,15 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="avalancheGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E84142"/>
+      <stop offset="100%" style="stop-color:#E84142"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Circle background -->
+  <circle cx="20" cy="20" r="20" fill="url(#avalancheGradient)"/>
+  
+  <!-- Avalanche mountain/triangle -->
+  <path d="M15 25L20 15L25 25H15Z" fill="white"/>
+  <path d="M12 30L17 20H23L28 30H12Z" fill="white" opacity="0.8"/>
+</svg>

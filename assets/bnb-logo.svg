@@ -1,0 +1,25 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bnbGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F3BA2F"/>
+      <stop offset="100%" style="stop-color:#F0B90B"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Circle background -->
+  <circle cx="20" cy="20" r="20" fill="url(#bnbGradient)"/>
+  
+  <!-- BNB diamond pattern -->
+  <g fill="white">
+    <!-- Center diamond -->
+    <path d="M20 14L23 17L20 20L17 17L20 14Z"/>
+    <!-- Top diamond -->
+    <path d="M20 8L24 12L20 16L16 12L20 8Z"/>
+    <!-- Bottom diamond -->
+    <path d="M20 24L24 28L20 32L16 28L20 24Z"/>
+    <!-- Left diamond -->
+    <path d="M14 20L18 16L22 20L18 24L14 20Z"/>
+    <!-- Right diamond -->
+    <path d="M26 20L30 16L34 20L30 24L26 20Z"/>
+  </g>
+</svg>

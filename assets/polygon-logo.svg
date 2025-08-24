@@ -1,0 +1,16 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="polygonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8247E5"/>
+      <stop offset="100%" style="stop-color:#A855F7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Polygon shape -->
+  <path d="M20 4L32 11V25L20 32L8 25V11L20 4Z" fill="url(#polygonGradient)" stroke="url(#polygonGradient)" stroke-width="1"/>
+  
+  <!-- Inner design -->
+  <path d="M15 16L20 13L25 16V22L20 25L15 22V16Z" fill="white" opacity="0.9"/>
+  <path d="M12 20L16 18V22L12 24V20Z" fill="white" opacity="0.7"/>
+  <path d="M28 20L24 18V22L28 24V20Z" fill="white" opacity="0.7"/>
+</svg>
