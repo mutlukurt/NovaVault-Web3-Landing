@@ -1,5 +1,7 @@
 # NovaVault Landing Page
 
+🌐 **Live Demo**: [https://mutlukurt.github.io/NovaVault-Web3-Landing/](https://mutlukurt.github.io/NovaVault-Web3-Landing/)
+
 A world-class, production-ready landing page for the next-generation crypto wallet NovaVault. Built with premium crypto-native design aesthetics, featuring neon-on-dark visuals, glassmorphism effects, and flawless responsive design.
 
 ## 🚀 Features
